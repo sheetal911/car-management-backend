@@ -29,16 +29,11 @@ Cloud Storage: Multer (for image uploads)
 
 🚀 Getting Started
 
-🔹 1. Clone the Repository
-
-git clone https://github.com/your-github-username/car-management-backend.git
-cd car-management-backend
-
-🔹 2. Install Dependencies
+🔹 1. Install Dependencies
 
 npm install
 
-🔹 3. Configure Environment Variables
+🔹 2. Configure Environment Variables
 
 Create a .env file in the root directory and add the following:
 
@@ -47,7 +42,7 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 CLOUDINARY_URL=your_cloudinary_url   # If using Cloudinary for image storage
 
-🔹 4. Run the Server
+🔹 3. Run the Server
 
 npm start 
 
